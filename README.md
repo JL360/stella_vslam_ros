@@ -66,6 +66,26 @@ git clone -b fix/ros2-kilted-build-issues https://github.com/JL360/stella_vslam_
 git clone --recursive -b fix/ros2-kilted-build-issues https://github.com/JL360/stella_vslam_ros.git
 ```
 
+### 🔍 Installation Verification
+
+After installation, verify everything works correctly:
+
+```bash
+# Download and run the verification script
+wget https://raw.githubusercontent.com/JL360/stella_vslam_ros/fix/ros2-kilted-build-issues/verify_installation.sh
+chmod +x verify_installation.sh
+./verify_installation.sh
+```
+
+The verification script checks:
+- ✅ ROS2 environment setup
+- ✅ Workspace configuration  
+- ✅ Package installation
+- ✅ Executable availability
+- ✅ IridescenceViewer support
+- ✅ Required libraries
+- ✅ Build fixes applied
+
 ### Build Status
 
 - ✅ **ROS 2 Kilted**: Builds successfully
