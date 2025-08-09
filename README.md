@@ -29,7 +29,34 @@ Use this fork if you encounter any of the following with the original repository
 - ✅ Missing `cv_bridge/cv_bridge.h` compilation errors
 - ✅ Deprecation warnings about message_filters headers
 
-### Installation with Fixes
+### 🚀 Easy Installation with Scripts
+
+We provide automated installation scripts for hassle-free setup:
+
+#### Quick Install (One-liner)
+```bash
+# Download and run the quick install script
+wget https://raw.githubusercontent.com/JL360/stella_vslam_ros/fix/ros2-kilted-build-issues/quick_install_stella_vslam.sh
+chmod +x quick_install_stella_vslam.sh
+./quick_install_stella_vslam.sh
+```
+
+#### Full Install (Detailed with logging)
+```bash
+# Download and run the comprehensive install script
+wget https://raw.githubusercontent.com/JL360/stella_vslam_ros/fix/ros2-kilted-build-issues/install_stella_vslam_iridescence.sh
+chmod +x install_stella_vslam_iridescence.sh
+./install_stella_vslam_iridescence.sh
+```
+
+Both scripts will:
+- ✅ Install all dependencies for **IridescenceViewer only**
+- ✅ Build stella_vslam with iridescence support
+- ✅ Clone and build this fixed fork
+- ✅ Set up a ready-to-use ROS2 workspace
+- ✅ Create helper scripts for easy usage
+
+### Manual Installation with Fixes
 
 ```bash
 # Clone this fork with fixes
